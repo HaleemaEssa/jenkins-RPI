@@ -6,7 +6,6 @@ import os
 ####Sound Sensor ###
 import adafruit_dht
 from board import *
-SENSOR_PIN = D5
 channel1 = 6 #for sound
 GPIO.setmode(GPIO.BCM)  
 GPIO.setup(channel1, GPIO.IN)
